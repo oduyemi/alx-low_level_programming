@@ -1,3 +1,4 @@
 #!/bin/bash
-export CFILE=1-main.c ; ./1-compiler
+export CFILE=1-main.c ;
+./1-compiler
 gcc -c $CFILE
